@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+	<title>Ayush Khanduri | Akchamp</title>
+
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	<script type="text/javascript">
+		
+		function resume()
+		{
+			window.open('ayush_CV.pdf');
+		}
+
+	</script>
+
+	<style type="text/css">
+		
+		h1 {
+			font-size: 45px;
+		    color: #111;
+		    
+		    text-align: center;	
+		    font-family: "Times New Roman", Times, serif;
+		}
+
+		.navbar,.form,.pic,.intern,.form,footer
+		{
+			margin: 0;
+			border: 0;
+		}
+
+		.pic
+		{
+			text-align: center;
+			background-color: #2c3e50;
+		}
+
+		.intern
+		{
+			text-align: center;
+		}
+
+		ul{
+		    list-style-type: none;
+		    margin: 0;
+		    padding: 0;
+		    margin-bottom: 0;
+		    overflow: hidden;
+		    background-color:#333;
+		}
+
+		li:first-child{
+			float: left;
+		}
+
+		li {
+		    float: right;
+		}
+
+		li a {
+		    display: block;
+		    color: white;
+		    text-align: center;
+		    padding: 18px 15px;
+		    text-decoration: none;
+		}
+
+		li a:hover {
+		    background-color: #110;
+		}
+
+		.about
+		{
+			background-color: #00aeef;
+			padding-left: 25px;
+			padding-right: 25px;
+			text-align: center;
+			font-size: 25px;
+		}
+
+		.btn
+		{
+			color: white;
+			background-color: #3b5998;
+		}
+
+		.form
+		{
+			background-color: #ecf0f1;
+			padding: 20px;
+		}
+
+	</style>
+</head>
+
+<body>
+	<div class="navbar" id="navbar">
+		<ul style="font-size: 16px">
+			<li><a href="#navbar">Akchamp</a></li>
+			<li><a href="#form">Contact Me</a></li>
+			<li><a href="#about">About Me</a></li>
+			<li><a href="#intern">Internship</a></li>
+		</ul>
+	</div>
+
+	<div class="pic" id="pic">
+	<br><br><br>
+	<img src="dp.png" class="img-circle" alt="Profile Pic" width="300" height="270">
+	<h1>Ayush Khanduri</h1>
+	<h2 style="color: white">Sports Programmer | Web Developer</h2>
+	<br><br>
+	</div>
+
+	<div class="intern" id="intern">
+	<br>
+	<h1>Internship</h1>
+	<b></b>
+	<img src="gfg.png" class="img-rounded" alt="Geeksforgeeks Logo" width="250" height="200">
+	<h2 bgcolor="white">GeeksforGeeks</h2>
+	<br>
+	</div>
+
+	<div class="about" id="about">
+		<br>
+		<h1>About Me</h1>
+		<br>
+		<p align="justify" style="color: black">I am a 3rd year Undergrad student at Jaypee Intitute of Information Technology, Noida. I am a Passionate Programmer, a Contributor@GeeksforGeeks, Web Developer and an Android Developer.<br>
+		Codechef/Hackerrank/Hackerearth/Codeforces handle - akchamp.
+		<br><br>
+		My most recent achievement:
+		<li>Won the 1st prize in the online Technical Content Writing Competition organised by
+		GeeksforGeeks in 2016.</li>
+		</p>
+		<br><br>
+		<button class="btn btn-lg" onclick="resume()">Have a look at my Resume</button>
+		<br><br>
+	</div>
+
+	<form action="mailto:ayush.khanduri1997@gmail.com" method="POST" class="form" id="form">
+		<h1>Contact Me</h1>
+		<br>
+		Name *<br>
+		<input type="text" name="fname" placeholder="First Name" required="">
+		&nbsp&nbsp&nbsp&nbsp
+		<input type="text" name="lname" placeholder="Last Name" required="">
+		<br><br>
+		Email *<br>
+		<input type="text" name="mail" size="50" required="">
+		<br><br>
+		Meassage *<br>
+  		<textarea name="msg" rows="8" cols="25" required=""></textarea>
+		<br><br>
+		<button class="btn">
+			Submit
+		</button>
+	</form>
+
+	<footer style="color : white; text-align: center; background-color: #2c3e50;">
+	  <p style="margin-bottom: 0; padding: 15px; size: 20px">Copyright © Ayush Khanduri 2017.</p>
+	</footer>
+
+</body>
