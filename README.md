@@ -1,2 +1,2 @@
 # ayush-khanduri.github.io
-Porfolio
+Portfolio
